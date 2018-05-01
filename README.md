@@ -32,4 +32,4 @@ The content element's id needs to consist of the name just entered, prepended wi
 
 ## Screenshot
 
-![The tooltip as used in the input interface of museum-digital][https://www.jrenslin.de/cont/screenshots/Tooltip/tooltip.jpg]
+![The tooltip as used in the input interface of museum-digital](https://www.jrenslin.de/cont/screenshots/Tooltip/tooltip.jpg)
