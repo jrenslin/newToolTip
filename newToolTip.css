@@ -1,0 +1,13 @@
+/* ========
+|  New tooltip
+|= ======== */
+
+.newToolTip         { position: fixed; display: none !important; min-width: 300px !important; max-width: 600px;
+                      background: #FFF !important;  text-align: left; font-size: .95rem;
+                      border-radius: .2em; box-shadow: 1px 1px 4px #646464; z-index: 3000; white-space: initial !important; }
+#newToolTipMain:before  { content: attr(data-title); display: block; padding: .5em 1em;
+                      background: #37474F; color: #FFF; }
+#newToolTipMain > *     { padding: .5rem 1rem !important; }
+#newToolTipMain.visible { display: block !important; }
+
+#newToolTipMain img { max-width: 200px; max-height: 300px; }
